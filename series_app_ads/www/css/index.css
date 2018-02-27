@@ -24,11 +24,11 @@ body {
     -webkit-touch-callout: none;
     -webkit-text-size-adjust: none;
     -webkit-user-select: none;
-    background-color: #40423d;
+    background-color: #010101;
     background-image: linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image: -webkit-linear-gradient(top, #A7A7A7 0%, #100f0c 51%);
     background-image: -ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #12110c), color-stop(0.51, #11100c) );
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #010101), color-stop(0.51, #040403) );
     background-attachment: fixed;
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size: 12px;
@@ -37,7 +37,6 @@ body {
     padding: 0px;
     text-transform: uppercase;
     width: 100%;
-
 }
 
 /* Portrait layout (default) */
@@ -45,17 +44,15 @@ body {
     background: url(../img/logo.png) no-repeat;
     position: absolute;
     left: 0px;
-    /* top: 19%; */
+    top: 19%;
     /* width: 100%; */
     text-align: center;
     height: 100%;
     margin: 0px;
-    background-size: cover;
+    background-size: contain;
     /* background-position: 101%; */
     right: 0px;
     background-position-x: 50%;
-
-
 }
 
 /* Landscape layout (with min-width) */
